@@ -34,7 +34,6 @@ pip freeze
 
 pip freeze > requirements.txt
 
-
 mkdir duplicate-project
 cp -r test-project/* duplicate-project
 cd duplicate-project
