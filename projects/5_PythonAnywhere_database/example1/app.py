@@ -6,10 +6,10 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 
 SQLALCHEMY_DATABASE_URI = "mysql+mysqlconnector://{username}:{password}@{hostname}/{databasename}".format(
-    username="valitutti",
-    password="Bellosguardo68",
-    hostname="valitutti.mysql.pythonanywhere-services.com",
-    databasename="valitutti$comments"
+    username="***",
+    password="***",
+    hostname="***",
+    databasename="***"
 )
 
 app.config["SQLALCHEMY_DATABASE_URI"] = SQLALCHEMY_DATABASE_URI
